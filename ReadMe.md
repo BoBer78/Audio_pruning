@@ -19,6 +19,7 @@ What is really important is to never shuffle the data (like random batches or da
 You can put your audio files here as .npy files to process other datasets : 
  - X has size (# samples , sample lenght)
  - y has size (# samples, )
+ 
 For the moment, sample lenght = 16000, some things have to be changed to a different lenght. 
 All the used files are : train_x.npy , train_y.npy, valid_x.npy, valid_y.npy, test_x.npy , test_y.npy
 
